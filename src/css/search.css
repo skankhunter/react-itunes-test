@@ -1,0 +1,55 @@
+.btn {
+    border: 1px solid grey;
+    border-radius: 0 3px 3px 0;
+    background: transparent;
+    padding: 7px;
+    margin-left: -1px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background: #3f51b5;
+}
+
+.search {
+    padding-bottom: 50px;
+}
+
+.input__search {
+    border: 1px solid grey;
+    border-radius: 3px 0 0 3px;
+    padding: 7px;
+}
+
+.input--singer {
+    width: 100%;
+}
+
+.search__form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.search__singer {
+    display: flex;
+    width: 50%;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.search__albums {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 7px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.search__song {
+    display: flex;
+}
